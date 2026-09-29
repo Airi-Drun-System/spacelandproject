@@ -1,4 +1,5 @@
 {
+  "id": "/spacelandproject/",
   "name": "Space Land",
   "short_name": "Space Land",
   "description": "Солнечная система, где можно разрушать планеты и смотреть на это с поверхности.",
@@ -9,6 +10,13 @@
   "background_color": "#04050b",
   "theme_color": "#04050b",
   "lang": "ru",
+  "dir": "ltr",
+  "categories": [
+    "games",
+    "entertainment",
+    "education"
+  ],
+  "prefer_related_applications": false,
   "icons": [
     {
       "src": "icon-192.png",
@@ -27,6 +35,22 @@
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "screenshot-wide.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Солнечная система"
+    },
+    {
+      "src": "screenshot-narrow.png",
+      "sizes": "720x1280",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Главное меню"
     }
   ]
 }
